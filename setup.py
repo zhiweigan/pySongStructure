@@ -8,12 +8,13 @@ setup(
   author = 'Zhi Wei Gan',                
   author_email = 'zgan@mit.edu',   
   url = 'https://github.com/zhiweigan/pySongStructure',   
-  download_url = 'https://github.com/zhiweigan/pySongStructure/archive/v0.1.tar.gz',   
+  download_url = 'https://github.com/zhiweigan/pySongStructure/archive/v0.2.tar.gz',   
   keywords = ['SOME', 'MEANINGFULL', 'KEYWORDS'],   
   install_requires=[            
           'numpy',
           'librosa',
           'msaf',
+          'scipy<=1.2'
       ],
   classifiers=[
     'Development Status :: 3 - Alpha',     
