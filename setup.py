@@ -13,7 +13,7 @@ setup(
   install_requires=[            
           'numpy',
           'librosa',
-          'scipy==1.2',
+          'scipy==1.10.0',
           'msaf',
       ],
   classifiers=[
